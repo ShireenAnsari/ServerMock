@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "The basic MockApi Json Server",
   "scripts": {
-    "StudentApi": "json-server --watch db.json --port 4000"
+    "dev": "json-server --watch db.json --port 4000"
   },
   "author": "",
   "license": "ISC",
