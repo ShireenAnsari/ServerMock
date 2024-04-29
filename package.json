@@ -1,0 +1,13 @@
+{
+  "name": "json-server",
+  "version": "1.0.0",
+  "description": "The basic MockApi Json Server",
+  "scripts": {
+    "StudentApi": "json-server --watch db.json --port 4000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^1.0.0-alpha.23"
+  }
+}
