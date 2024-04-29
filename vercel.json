@@ -3,7 +3,7 @@
     "routes": [
       {
         "src": ".*",
-        "dest": "db.json"
+        "dest": "/db.json"
       }
     ]
   }
