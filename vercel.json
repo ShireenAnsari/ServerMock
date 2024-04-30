@@ -1,10 +1,7 @@
 {
-    "version": 2,
-    "routes": [
-      {
-        "src": ".*",
-        "dest": "/db.json"
-      }
-    ]
-  }
-  
+  "version": 2,
+  "routes": [
+    { "src": "/api/students/:id", "dest": "/api/students" },
+    { "src": "/api/students", "dest": "/api/students" }
+  ]
+}
